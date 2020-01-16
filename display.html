@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>瑞康综合门诊部</title>
+    <link rel="stylesheet" href="//cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="//cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #showCarousel  .carousel-inner > .item > img {
+
+            display: block;
+            width:100%;
+            height:314px;
+
+        }
+        .navbar {
+            min-height: 40px;
+            background-color:#FFFAFA;
+        }
+        
+    </style>
+</head>
+
+<body>
+<!-- 导航 -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <img src="i/logo.png">
+    </div>
+</nav>
+<!-- 轮播 -->
+<div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner" style="height: 500px;">
+            <div class="item active">
+                            <img src="i/1.jpg" alt="First slide">
+                        </div>
+            <div class="item" height="314">
+                            <img src="i/2.jpg" alt="Second slide">
+                        </div>
+            <div class="item" height="314">
+                            <img src="i/3.jpg" alt="Third slide">
+                        </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+</div>
+
+<!-- 内容 -->
+<div id="container" style="width:100%">
+
+    <div id="right1" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+        <b>外科</b><br/>
+        <img src="i/out.png">
+    </div>
+
+    <div id="left1" style="background-color:#00C5CD;height:250px;width:100%;float:left;">
+        <b>内科</b><br/>
+        <img src="i/in.png">
+        </div>
+
+    <div id="left2" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+        <b>中医科</b><br/>
+        <img src="i/special.png">
+    </div>
+
+    <div id="right2" style="background-color:#00C5CD;height:250px;width:100%;float:left;">
+        <b>牙科</b><br/>
+        <img src="i/tooth.png">
+    </div>
+
+    <div id="left3" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+        <b>联系电话：点击拨打</b><br/>
+        <a href="tel:15844075868"><img src="i/phone.png"></a>
+    </div>
+
+
+
+</div>
+</body>
+</html>
