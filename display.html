@@ -18,7 +18,20 @@
             min-height: 40px;
             background-color:#FFFAFA;
         }
-        
+        .iconr{
+            width: 300px;
+            text-align: right;
+        }
+        .introduce_b{
+            height: 200px;
+            background-color: #00C5CD; /* 浏览器不支持时显示 */
+            /*background-image: linear-gradient(#FFFAFA,#00C5CD,#FFFAFA);*/
+        }
+        .introduce_w{
+            height: 200px;
+            background-color: #FFFAFA; /* 浏览器不支持时显示 */
+            /*background-image: linear-gradient(#FFFAFA,#00C5CD,#FFFAFA);*/
+        }
     </style>
 </head>
 
@@ -63,29 +76,52 @@
 <!-- 内容 -->
 <div id="container" style="width:100%">
 
-    <div id="right1" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+    <div id="1" class="introduce_w" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+        <div style="width: 70%;float:left;">
+            <p>introduce</p>
+        </div>
+        <div class="iconr" style="width: 30%;float:left;">
         <b>外科</b><br/>
         <img src="i/out.png">
+        </div>
     </div>
 
-    <div id="left1" style="background-color:#00C5CD;height:250px;width:100%;float:left;">
+    <div id="2" class="introduce_b" style="background-color:#00C5CD;height:250px;width:100%;float:left;">
+
+        <div class="iconl" style="width: 30%;float:left;">
         <b>内科</b><br/>
         <img src="i/in.png">
         </div>
+        <div style="width: 70%;float:left;">
+            <p>introduce</p>
+        </div>
+        </div>
 
-    <div id="left2" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+    <div id="3" class="introduce_w" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+        <div style="width: 70%;float:left;">
+            <p>introduce</p>
+        </div>
+        <div class="iconr" style="width: 30%;float:left;">
         <b>中医科</b><br/>
         <img src="i/special.png">
+        </div>
     </div>
 
-    <div id="right2" style="background-color:#00C5CD;height:250px;width:100%;float:left;">
+    <div id="4" class="introduce_b" style="background-color:#00C5CD;height:250px;width:100%;float:left;">
+        <div class="iconl" style="width: 30%;float:left;">
         <b>牙科</b><br/>
         <img src="i/tooth.png">
+        </div>
     </div>
 
-    <div id="left3" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+    <div id="5" class="introduce_w" style="background-color:#FFFAFA;height:250px;width:100%;float:left;">
+        <div style="width: 70%;float:left;">
+            <p>introduce</p>
+        </div>
+        <div class="iconr" style="width: 30%;float:left;">
         <b>联系电话：点击拨打</b><br/>
         <a href="tel:15844075868"><img src="i/phone.png"></a>
+        </div>
     </div>
 
 
